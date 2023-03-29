@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="max-w-7xl mx-auto ">
       <TopNav />
-      <Header />
+      <header className="py-6">
+        <Header />
+      </header>
       <div className="grid grid-cols-4 gap-4 py-6">
         <ProductCardVertical />
         <ProductCardVertical />
