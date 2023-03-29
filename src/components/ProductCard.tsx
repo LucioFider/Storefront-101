@@ -46,7 +46,7 @@ export default function ProductCardVertical() {
           Lightweight • Non slip • Flexible outsole • Easy to wear on and off
         </p>
         <span className="block pb-2 font-bold typography-text-lg">
-          $2345,99
+          K2345,99
         </span>
         <SfButton
           type="button"
