@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import TopNav from "./components/Navbar";
 import ProductCardVertical from "./components/ProductCard";
 import ProductList from "./components/ProductList";
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="max-w-7xl mx-auto ">
       <TopNav />
+      <Header />
       <div className="grid grid-cols-4 gap-4 py-6">
         <ProductCardVertical />
         <ProductCardVertical />
@@ -15,8 +17,10 @@ function App() {
         <ProductCardVertical />
         <ProductCardVertical />
         <ProductCardVertical />
-        <ProductList />
       </div>
+      <ProductList />
+      <ProductList />
+      <ProductList />
     </div>
   );
 }
